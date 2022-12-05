@@ -1,0 +1,21 @@
+int main() {
+	// your code goes here
+	int T,A,B,X;
+	cin>>T;
+	int arr[T];
+	
+	for(int i=0;i<T;i++)
+	{
+	    cin>>A>>B>>X;
+	    B=B-A;
+	    
+	    arr[i]=B/X;
+	}
+	
+	for(int i=0;i<T;i++)
+	{
+	    cout<<arr[i]<<endl;
+	}
+	
+	return 0;
+}
