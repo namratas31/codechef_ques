@@ -1,0 +1,19 @@
+int main() {
+	// your code goes here
+	int T,L,R;
+	
+	cin>>T;
+	int arr[T];
+	
+	for(int i=0;i<T;i++)
+	{
+	    cin>>L>>R;
+	    arr[i]=2*R-2*L+1;
+	}
+	
+	for(int i=0;i<T;i++)
+	{
+	    cout<<arr[i]<<endl;
+	}
+	return 0;
+}
