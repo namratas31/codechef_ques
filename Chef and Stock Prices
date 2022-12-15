@@ -1,0 +1,23 @@
+int main() {
+	// your code goes here
+	int T;
+	float C,S,A,B;
+	cin>>T;
+	
+	for(int i=0;i<T;i++)
+	{
+	    cin>>S>>A>>B>>C;
+
+        C=(C/100)*S;
+       
+	    S+=C;
+	   
+	    if(S>=A && S<=B)
+	    cout<<"Yes"<<endl;
+	    else
+	    cout<<"No"<<endl;
+	    
+	}
+	
+	return 0;
+}
